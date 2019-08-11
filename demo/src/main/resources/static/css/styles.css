@@ -1,3 +1,5 @@
+@CHARSET "UTF-8";
+@CHARSET "UTF-8";
 body {
     color: #333;
     font-family: Verdana, sans-serif;
@@ -8,7 +10,7 @@ header {
     text-align: right;
     padding: 10px;
     background-image:
-    url(../img/剣山01.JPG);
+    url(../img/tsurugi01.JPG);
     height: 300px;
     background-size: cover;
     background-position: 50% 50%;

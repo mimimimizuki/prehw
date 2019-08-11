@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html xmlns:th="http://www.thymeleaf.org">
     <head>
         <meta charset="utf-8">
         <title>
         about mizuki
         </title>
         <meta name="description" content="about mizuki">
-        <link rel="stylesheet" href="style/styles.css">
+        <link rel="stylesheet" th:href="@{/css/style.css}"/>>
     </head>
     <body>
     <header>
@@ -34,7 +34,7 @@
         
     </header>
         <section class="about">
-        <img src="img/剣山04.JPG" width="140" height="140" 
+        <img src="img/tsurugi04.JPG" width="140" height="140" 
         alt = "mizuki icon" class="icon">
         <h1>mizuki</h1>
         <p>introduce mizuki</p>
@@ -43,16 +43,16 @@
         <ul>
             <li>
                 <a href="mailto:mizuki@gmail.com" target="_brank">
-                    <img src="img/剣山07.JPG" width="20" height="20" alt="メール送信">
+                    <img src="../img/tsurugi07.JPG" width="20" height="20" alt="メール送信">
                 </a>
             </li>
             <li>
                 <a href="https://dotinstall.com/lessons/basic_html_v4/45113" target="_brank">
-                    <img src="img/剣山06.JPG" width="20" height="20" alt="ブログサイトへ">
+                    <img src="../img/tsurugi06.JPG" width="20" height="20" alt="ブログサイトへ">
                 </a>
             </li>
                 <a href="https://dotinstall.com/lessons/basic_html_v4/45113" >
-            <li><img src="img/剣山06.JPG" width="20" height="20" alt="写真サイトへ">
+                <img src="../img/tsurugi06.JPG" width="20" height="20" alt="写真サイトへ">
                 </a>
             </li>
         </ul>

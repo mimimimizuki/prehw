@@ -1,92 +1,50 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org">
+<html lang="ja" xmlns:th="http://www.thymeleaf.org">
     <head>
-        <meta charset="utf-8">
-        <title>
-        mizuki's portfolio site
-        </title>
-        <meta name="description" content="mizuki's portfolio site">
-        <link rel="stylesheet" th:href="@{/css/style.css}"/>>
+        <meta charset = "utf-8">
+        <title>my trips</title>
+        <meta name = "description" content = "my trips">
+        <link rel = "stylesheet" href = "../css/styles.css" th:href="@{/css/styles.css}">
     </head>
-    <body>
     <header>
-    <!-- 
-        ol: (o)rdered (l)ist
-        ul: (u)nordered (l)ist
 
-        li: (l)ist (i)tem
-    -->
-        <nav>
-        <ul>
-            <li class="current">
-                <a href="index.html">
-                    HOME
-                </a>
-            </li>
-            <li>
-                <a href="about.html">
-                    ABOUT
-                </a>
-            </li>
-        </ul>
-        </nav>
-     </header>
+    </header>
+    <body>
         <section>
-        <img src="../img/tsurugi04.JPG" width="140" height="140" 
-            alt = "mizuki icon" class="icon">
-        <h1>mizuki</h1>
-        <p>UI/UXデザイナー見習いです。</p>
+            <img src="../img/剣山01.JPG" width="200" height="200"
+                alt = "my profile" class="icon">
+            <p>京都大学工学部三回生</p>
         </section>
-        <div class="works">
-        <section>
-        <img src="../img/tsurugi02.JPG" width="400" height="260" alt = "mizuki icon">
-        <h1>
-        勇者ゲーム</h1>
-        <p>
-        楽しいアプリです。
-        </p>
-        </section>
-        <section>
-        <img src="../img/tsurugi04.JPG" width="400" height="260" alt = "mizuki icon">
-        <h1>
-        宝探しゲーム</h1>
-        <p>
-        楽しいアプリです。
-        </p>
-        </section>
-        <section>
-        <img src="../img/tsurugi03.JPG" width="400" height="260" alt = "mizuki icon">
-        <h1>
-        神経衰弱</h1>
-        <p>
-        楽しいアプリです。
-        </p>
-        </section>
-        </div>
-        <footer>
-        <ul>
-            <li>
-                <a href="mailto:mizuki@gmail.com" target="_brank">
-                    <img src="../img/tsurugi07.JPG" width="20" height="20" alt="メール送信">
-                </a>
-            </li>
-            <li>
-                <a href="https://dotinstall.com/lessons/basic_html_v4/45113" target="_brank">
-                    <img src="../img/tsurugi06.JPG" width="20" height="20" alt="ブログサイトへ">
-                </a>
-            </li>
-                <a href="https://dotinstall.com/lessons/basic_html_v4/45113" >
-                <img src="../img/tsurugi06.JPG" width="20" height="20" alt="写真サイトへ">
-                </a>
-            </li>
-        </ul>
-        
-        <p>
-        (c) mizuki
-        </p>
-        </footer>
-    </body>
-
+            <div>
+            <img src="../img/剣山07.JPG" width="400" height="260" alt="my trip" class="trip">
+            <img src="../img/高屋神社03.JPG" width="400" height="260" alt="my trip" class="trip">
+            <h1>四国旅行</h1>
+            <p>
+            西日本で2番目に高い山である剣山と、天空の神社高屋神社。
+            </p>
+            </div>
+            <div>
+            <img src="../img/malay.jpg" width="400" height="260" alt="my trip" class="trip">
+            <img src="../img/designVillage.jpg" width="400" height="260" alt="my trip" class="trip">
+            <h1>マレーシア</h1>
+            <p>
+            留学先の博物館とデザインビレッジ。
+            <p>
+            </div>
+            <div>
+            <img src="../img/布引.jpg" width="400" height="260"  alt="my trip" class="trip">
+            <img src="../img/布引1.jpg" width="400" height="260" alt="my trip" class="trip">
+            <h1>新神戸BBQ</h1>
+            <p>
+            川沿いでキャンプ。神戸、布引の滝。
+            <p>
+            </div>
+            <div>
+            <img src="../img/planet.jpg" width="400" height="260" alt="my trip" class="trip">
+            <h1>京都大学学園祭</h1>
+            <p>
+            サークル自作のプラネタリウム。
+            <p>
+            </div>
+            
 </html>
-
-
